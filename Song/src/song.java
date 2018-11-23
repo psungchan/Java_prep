@@ -12,34 +12,63 @@ public class song {
 		
 		
 	}
+	
+	
+	
+	
+	
+	"There was an old woman who swallowed a bird,"
+	"How absurd to swallow a bird."
+	
+	"There was an old woman who swallowed a cat,"
+	"Imagine that to swallow a cat."
+	
+	"There was an old woman who swallowed a dog,"
+	"What a hog to swallow a dog."
+	
+	"She swallowed the dog to catch the cat,"
+	"She swallowed the cat to catch the bird,"
+	"She swallowed the bird to catch the spider,"
+	"She swallowed the spider to catch the fly,"
+	
+	"There was an old woman who swallowed a horse,"
+	"She died of course."
+	
+	public void sharedVerse() {
+		System.out.println("I don't know why she swallowed that fly,");
+		System.out.println("Perhaps she'll die.");
+		System.out.println();
+	}
+	
 	public void firstStanza() {
-		System.out.println("");
-		System.out.println("");
+		System.out.println("There was an old woman who swallowed a fly.");
+		sharedVerse();
 	}
 	
 	public void secondStanza() {
+		System.out.println("There was an old woman who swallowed a spider.");
+		System.out.println("That wriggled and iggled and jiggled inside her.");
 		System.out.println("");
-		System.out.println("");
+		sharedVerse();
 	}
 	
 	public void thirdStanza() {
 		System.out.println("");
 		System.out.println("");
+		System.out.println("");
+		sharedVerse();
 	}
 	
 	public void fourthStanza() {
 		System.out.println("");
 		System.out.println("");
+		System.out.println("");
+		sharedVerse();
 	}
 	
 	public void fifthStanza() {
 		System.out.println("");
 		System.out.println("");
-	}
-	
-	public void myStanza() {
-		System.out.println("This song is bad.");
-		System.out.println("I am sad.");
 	}
 	
 	public void finalStanza() {
@@ -49,20 +78,6 @@ public class song {
 	
 	public void firstLine() {
 		System.out.println ("There was and old woman who swallowed a fly.");
-	}
-	
-	public void lastLine() {
-		System.out.println ("Perhaps she'll die.");
-		System.out.println();
-	}
-	
-	public void secondLine() {
-		System.out.println("What a hog to swallow a dog.");
-		thirdLine();
-	}
-	
-	public void thirdLine() {
-		System.out.println("What a hog to swallow a dog.");
 	}
 	
 }
