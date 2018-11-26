@@ -9,7 +9,8 @@
 
 public class song {
 	public static void main(String[] args) {
-		
+		firstStanza();
+		secondStanza();
 		
 	}
 	
