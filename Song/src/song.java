@@ -11,29 +11,21 @@ public class song {
 	public static void main(String[] args) {
 		firstStanza();
 		secondStanza();
+		thirdStanza();
+		fourthStanza();
+		fifthStanza();
+		myStanza();
+		finalStanza();
 		
 	}
 	
 	
 	
-	
-	
-	"There was an old woman who swallowed a bird,"
-	"How absurd to swallow a bird."
-	
-	"There was an old woman who swallowed a cat,"
-	"Imagine that to swallow a cat."
-	
-	"There was an old woman who swallowed a dog,"
-	"What a hog to swallow a dog."
-	
 	"She swallowed the dog to catch the cat,"
 	"She swallowed the cat to catch the bird,"
 	"She swallowed the bird to catch the spider,"
 	"She swallowed the spider to catch the fly,"
-	
-	"There was an old woman who swallowed a horse,"
-	"She died of course."
+
 	
 	public void sharedVerse() {
 		System.out.println("I don't know why she swallowed that fly,");
@@ -54,22 +46,22 @@ public class song {
 	}
 	
 	public void thirdStanza() {
-		System.out.println("");
-		System.out.println("");
+		System.out.println("There was an old woman who swallowed a bird,");
+		System.out.println("How absurd to swallow a bird.");
 		System.out.println("");
 		sharedVerse();
 	}
 	
 	public void fourthStanza() {
-		System.out.println("");
-		System.out.println("");
+		System.out.println("There was an old woman who swallowed a cat,");
+		System.out.println("Imagine that to swallow a cat.");
 		System.out.println("");
 		sharedVerse();
 	}
 	
 	public void fifthStanza() {
-		System.out.println("");
-		System.out.println("");
+		System.out.println("There was an old woman who swallowed a dog,");
+		System.out.println("What a hog to swallow a dog.");
 	}
 	
 	public void finalStanza() {
