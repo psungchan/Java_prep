@@ -19,13 +19,21 @@ public class song {
 		
 	}
 	
+	public void dogCat(){
+		System.out.println("She swallowed the dog to catch the cat,")
+	}
 	
+	public void catBird(){
+		System.out.println("She swallowed the cat to catch the bird,")
+	}
 	
-	"She swallowed the dog to catch the cat,"
-	"She swallowed the cat to catch the bird,"
-	"She swallowed the bird to catch the spider,"
-	"She swallowed the spider to catch the fly,"
-
+	public void birdSpider(){
+		System.out.println("She swallowed the bird to catch the spider,")
+	}
+	
+	public void spiderFly(){
+		System.out.println("She swallowed the spider to catch the fly,")
+	}
 	
 	public void sharedVerse() {
 		System.out.println("I don't know why she swallowed that fly,");
