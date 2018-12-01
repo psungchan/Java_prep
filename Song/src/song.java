@@ -49,14 +49,15 @@ public class song {
 	public void secondStanza() {
 		System.out.println("There was an old woman who swallowed a spider.");
 		System.out.println("That wriggled and iggled and jiggled inside her.");
-		System.out.println("");
+		spiderFly();
 		sharedVerse();
 	}
 	
 	public void thirdStanza() {
 		System.out.println("There was an old woman who swallowed a bird,");
 		System.out.println("How absurd to swallow a bird.");
-		System.out.println("");
+		birdSpider();
+		spiderFly();
 		sharedVerse();
 	}
 	
